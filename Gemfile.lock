@@ -50,7 +50,7 @@ GEM
     concurrent-ruby (1.1.5)
     diff-lcs (1.1.3)
     erubis (2.7.0)
-    execjs (2.7.0)
+    execjs (2.8.1)
     ffi (1.11.1)
     hike (1.2.3)
     i18n (0.9.5)
@@ -65,7 +65,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     mini_portile2 (2.1.0)
-    multi_json (1.13.1)
+    multi_json (1.15.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     pg (0.12.2)
@@ -137,9 +137,9 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.55)
-    uglifier (1.2.3)
+    uglifier (2.7.2)
       execjs (>= 0.3.0)
-      multi_json (>= 1.0.2)
+      json (>= 1.8.0)
     websocket (1.2.8)
     xpath (0.1.4)
       nokogiri (~> 1.3)
@@ -157,7 +157,7 @@ DEPENDENCIES
   rspec-rails (= 2.11.0)
   sass-rails (= 3.2.5)
   sqlite3 (= 1.3.5)
-  uglifier (= 1.2.3)
+  uglifier (= 2.7.2)
 
 BUNDLED WITH
    1.17.3
